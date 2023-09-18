@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="URL" value="www.google.com"/>
+    <test verbose="2" preserve-order="true" name="C:/Users/User/IdeaProjects/SeleniumMaven2/src/main/java/TESTNG.java"/>
+        <test name="Checking">
+            <groups>
+                <run>
+                    <exclude name="Smoke"/>
+                </run>
+            </groups>
+
+        <classes>
+            <class name="TESTNG"/>
+        </classes>
+    </test>
+</suite>
